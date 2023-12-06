@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <a href="#default" class="logo">Portfolio</a>
+        
+        <div class="header-right">
+            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Works</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">About</button>
+                </li>
+              </ul>
+          <!-- <a class="active" href="#home">Welcome</a>
+          <a href="#contact">Works</a>
+          <a href="#about">About</a> -->
+        </div>
+      </div>   
+</header>
+<main>
+    <div class="container ">
+        <div class=" row">
+            <div class="col">
+                <h1>Hello my name is Moussa CAMARA</h1>
+                <p>I am a Creative Developer who currently based in Toulon, FRANCE.</p>
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                    <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                  </svg>
+            </div>
+            <div class="col-6  col-sm-4">
+                <img src="image/IMG_E6411.JPG" class="img-thumbnail img-responsive margin" width="338" alt="photo de Moussa">
+            </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <p>Du Dev à la Prod</p>
+                    
+                </div>
+                  <div class="col order-5">
+                    <p>Vision 360°</p>
+                  </div>
+                  <div class="col order-1">
+                    <p>Team Player</p>
+                  </div>
+                </div>
+                <div>
+                    <h2>My Work</h2>
+                </div>
+              </div>
+        <!-- <div class="column " style="background-color:#aaa;">
+          <h2>Column 1</h2>
+          <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+          <h2>Column 2</h2>
+          <p>Some text..</p>
+        </div> -->
+      </div>  
+</main>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
